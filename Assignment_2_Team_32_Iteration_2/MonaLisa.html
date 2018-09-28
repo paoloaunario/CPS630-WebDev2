@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mona Lisa</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+	margin-left: 125px;
+	height: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.monalisa {
+    margin-left: 175px;
+	
+}
+
+.shoppingcarticon {
+	float: right;
+	margin-right: 50px;
+	width: 2.5%;
+	height: 2.5%;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+
+<a href="shoppingcart.html" >
+<img class="shoppingcarticon"  src="shoppingcarticon.jpg" alt="Shopping Cart" width="42" height="42" border="0">
+</a>
+
+<h2 class="monalisa">Mona Lisa</h2>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+     <img src="MonaLisa.jpg"></img>	
+  </div>
+  <div class="column" style="background-color:#bbb;">
+	<p>Artist: Leonardo da Vinci</p>
+	<p>Date of Production:1937</p>
+	<p>Type of Painting Colours: Monochromatic palette</p>
+	<p>Dimensions: 77 cm x 53 cm</p>
+	<p>Location: Spain </p>
+	<p>Price: $100 Million</p>
+	<p>Genre: Portrait </p>
+  </div>
+</div>
+
+<a href="home.html" >Home</a>
+
+
+
+
+
+</body>
+</html>

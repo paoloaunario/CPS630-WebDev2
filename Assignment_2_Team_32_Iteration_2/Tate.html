@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head><title>TateGallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+	margin-left:  105px;
+	height: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gustavKlimt {
+    margin-left: 150px;
+	
+}
+
+
+</style>
+</head>
+<body>
+
+<h2 class="tate">Tate Gallery</h2>
+
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+     <img src="tate.jpg"></img>	
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <p>Established: 2000</p>
+	<p>Location: London, United Kingdom</p>
+	<p>Director: Frances Morris</p>
+  </div>
+</div>
+
+<a href="home.html">Home</a>
+
+</body>
+</html>

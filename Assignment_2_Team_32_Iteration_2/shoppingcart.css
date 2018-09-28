@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+select {
+	width: 170px;
+	height: 28px;
+	overflow: hidden;
+	background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 7px;
+	
+	
+}
+
+.floatright {
+	float: right;
+}
+
+.quantitytext {
+	float: right;
+}
+
+div.size{
+	font-size: 25px;
+}
+
+span.red {
+	color: red;
+}
+
+a {
+	color:black
+}
+
+
