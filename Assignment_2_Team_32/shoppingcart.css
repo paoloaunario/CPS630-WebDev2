@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+}
+
+
+
+select {
+	width: 170px;
+	height: 28px;
+	overflow: hidden;
+	background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 7px;
+   
+}
